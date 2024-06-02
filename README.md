@@ -18,5 +18,7 @@ NodeJS is monitoring the file (every 1s) and if there is a change in the content
 # Start server
 
 ```bash
-❯ node server.js
+node server.js
 ```
+
+![UI](./doc/img/image.png)
