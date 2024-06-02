@@ -1,5 +1,6 @@
+# Data exchange
 
-Python process generates the following JSON file.
+Python process responsible for communication with beacons generates the following JSON file.
 
 ```json
 {
@@ -11,3 +12,11 @@ Python process generates the following JSON file.
 ```
 
 NodeJS is monitoring the file (every 1s) and if there is a change in the content it will send it over web socket to the client, which will update the UI.
+
+
+
+# Start server
+
+```bash
+❯ node server.js
+```
